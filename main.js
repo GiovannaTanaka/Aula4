@@ -1,10 +1,10 @@
-const array = [2,3,4,5,6];
+const array = [2,3,4,5,6];//ciando array
 
-array.forEach(item =>{
-    if(item % 2 === 0){
-        console.log(`O número ${item} é par`);
+array.forEach(item =>{//para cada item do array faça (item)
+    if(item % 2 === 0){//se for par...
+        console.log(`O número ${item} é par`);//... faça isso
     }
-    else{
-        console.log(`O número ${item} é impar`);
+    else{// se não for..
+        console.log(`O número ${item} é impar`);// ...  faça isso
     }
 });
