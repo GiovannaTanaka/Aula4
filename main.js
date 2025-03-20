@@ -1,10 +1,11 @@
-const array = [2,3,4,5,6];//ciando array
+function Pessoa (a,b){ //Pessoa=Classe (nome em maiúsculo)
+    this.nome = a;
+    this.idade = b;
+}
 
-array.forEach(item =>{//para cada item do array faça (item)
-    if(item % 2 === 0){//se for par...
-        console.log(`O número ${item} é par`);//... faça isso
-    }
-    else{// se não for..
-        console.log(`O número ${item} é impar`);// ...  faça isso
-    }
-});
+const x = new Pessoa('Afonso', 31);
+const y = new Pessoa('Giovanna', 21);
+
+console.log(x);
+console.log(y);
+
