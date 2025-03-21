@@ -11,3 +11,10 @@ lista.pop();// pop = remove o último elemento na lista
 console.log(lista);
 
 console.log(lista.length);//exibe a quantidade dos elementos do array
+
+teste = [
+    {nome:"Afonso", idade:31},
+    {nome:"Teste", idade:20}  //Array de objetos
+]
+
+console.log(teste)
