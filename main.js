@@ -1,20 +1,13 @@
-var lista = ["Afonso","Cezinha","Aine","Tanakão"];
+function Aluno (a,b){
+    this.nome = a;
+    this.nota = b;
+}
+var alunos = [];
 
-console.log (lista);// imprime o array inteiro
+var aluno1 = new Aluno ('Giovanna',10);
+var aluno2 = new Aluno ('Damares', 9);
 
-console.log (lista[3]);
+alunos.push(aluno1);
+alunos.push(aluno2);
 
-lista.push("Felipe"); // push = adiciona o elemento na lista na última posição
-console.log (lista);
-
-lista.pop();// pop = remove o último elemento na lista
-console.log(lista);
-
-console.log(lista.length);//exibe a quantidade dos elementos do array
-
-teste = [
-    {nome:"Afonso", idade:31},
-    {nome:"Teste", idade:20}  //Array de objetos
-]
-
-console.log(teste)
+console.log(alunos);
