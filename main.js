@@ -1,11 +1,12 @@
-function Pessoa (a,b){ //Pessoa=Classe (nome em maiúsculo)
-    this.nome = a;
-    this.idade = b;
+function Carro (a,b,c,d,e){ 
+    this.valor = a;
+    this.cor = b;
+    this.ano = c;
+    this.modelo = d;
+    this.popular = e;
 }
 
-const x = new Pessoa('Afonso', 31);
-const y = new Pessoa('Giovanna', 21);
+var carro = new Carro(91900, 'Preto', 2023, 'Corolla',true);
 
-console.log(x);
-console.log(y);
+console.log(carro);
 
