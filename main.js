@@ -1,12 +1,8 @@
-function Carro (a,b,c,d,e){ 
-    this.valor = a;
-    this.cor = b;
-    this.ano = c;
-    this.modelo = d;
-    this.popular = e;
-}
+var lista = ["Afonso","Cezinha","Aine","Tanakão"];
 
-var carro = new Carro(91900, 'Preto', 2023, 'Corolla',true);
+console.log (lista);// imprime o array inteiro
 
-console.log(carro);
+console.log (lista[3]);
 
+lista.push("Felipe"); // push = adiciona o elemento na lista
+console.log (lista);
